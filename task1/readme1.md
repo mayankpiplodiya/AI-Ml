@@ -2,7 +2,7 @@
 Imported the dataset and examined data types, missing values, and basic structure using functions like info() and isnull().sum().
 Handled missing values:
 
-Used median for numeric columns such as Age.
+Used mean for numeric columns such as Age.
 
 Used mode for categorical columns such as Embarked.
 
