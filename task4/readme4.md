@@ -1,18 +1,17 @@
-
 Dataset Selection:
-A binary classification dataset was used where the target variable had two classes (e.g., 0 and 1).
+ A binary classification dataset was used where the target variable had two distinct classes (e.g., 0 and 1).
 
 Preprocessing:
-The data was split into training and testing sets. Features were standardized using StandardScaler to improve model performance.
+ Performed necessary preprocessing including handling missing values and removing outliers using Z-score method to clean the dataset.
+
+Feature Scaling and Split:
+ The dataset was split into training and testing sets, and features were standardized using StandardScaler for better model performance.
 
 Model Training:
-A Logistic Regression model was trained on the scaled training data to classify the target variable.
+ A Logistic Regression model was trained on the processed and scaled training data to classify the binary target.
 
 Evaluation Metrics:
-Model performance was evaluated using confusion matrix, precision, recall, F1-score, and ROC-AUC score. The ROC curve was plotted to visualize performance.
+ Model performance was evaluated using confusion matrix, precision, recall, F1-score, ROC-AUC score, and ROC curve visualization.
 
-Threshold Tuning:
-Predicted probabilities were used to tune the classification threshold and observe its effect on precision and recall.
-
-Sigmoid Function:
-The sigmoid function was explained and used to convert linear outputs to probabilities, which are essential for classification and threshold tuning.
+Threshold Tuning and Sigmoid Explanation:
+ Used predicted probabilities to manually tune classification thresholds. Explained the sigmoid function used to convert model outputs into class probabilitie
