@@ -1,4 +1,5 @@
-                                                        Heart Disease Prediction using Decision Tree and Random Forest
+ Heart Disease Prediction using Decision Tree and Random Forest
+ 
                                                         
 1) Loaded and preprocessed the dataset (heart.csv), selecting features and the target column (target) for binary classification.
 
