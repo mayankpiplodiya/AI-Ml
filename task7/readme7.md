@@ -1,37 +1,13 @@
-1) Data Loading & Preprocessing-
+SVM Classifier on Breast Cancer Dataset-
 
-a. Loaded the breast-cancer.csv dataset and checked for missing values.
+1) Imported and preprocessed the dataset by encoding the target column and selecting two key features for 2D visualization.
+ 
+2) Detected and removed outliers using Z-score method and visualized distributions with boxplots.
+ 
+3) Normalized the features using StandardScaler to improve SVM performance and distance-based decisions.
+ 
+4) Trained SVM models with both linear and RBF kernels to compare classification performance.
+ 
+5) Tuned hyperparameters (C, gamma) using GridSearchCV with 5-fold cross-validation to find the best model.
 
-b. Encoded the target variable (diagnosis: Benign=0, Malignant=1).
-
-c. Selected two features (radius_mean, texture_mean) for 2D visualization.
-
-d. Normalized features using StandardScaler for optimal SVM performance.
-
-2) Outlier Detection & Removal-
-   
-a. Applied Z-score method to detect and remove outliers from the selected features.
-
-b. Created boxplots to visualize outliers before removal.
-
-3) Model Training with SVM-
-   
-a. Trained Support Vector Machine (SVM) with both Linear and RBF kernels on cleaned and scaled data.
-
-b. Evaluated models using accuracy on the test set.
-
-4) Decision Boundary Visualization-
-   
-a. Plotted decision boundaries for both kernels using 2D feature space to understand how SVM separates classes.
-
-5) Hyperparameter Tuning-
-   
-a. Used GridSearchCV to tune hyperparameters like C and gamma across both kernel types.
-
-b. Identified the best model configuration using 5-fold cross-validation.
-
-6) Model Evaluation-
-   
-a. Performed 5-fold cross-validation on the best model.
-
-b. Evaluated performance using accuracy, precision, recall, and F1-score via classification report
+6) Visualized decision boundaries and evaluated the final model using cross-validation accuracy and classification metrics.
