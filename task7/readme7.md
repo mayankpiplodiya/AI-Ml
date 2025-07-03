@@ -23,7 +23,7 @@ b. Evaluated models using accuracy on the test set.
 
 4)Decision Boundary Visualization-
 
-Plotted decision boundaries for both kernels using 2D feature space to understand how SVM separates classes.
+a. Plotted decision boundaries for both kernels using 2D feature space to understand how SVM separates classes.
 
 5)Hyperparameter Tuning-
 
